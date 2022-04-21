@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dave Quah (@Milleus)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/global.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W6QZZYV2W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5W6QZZYV2W');
+  </script>
+</head>
+
+<body>
+  <div class="container grid">
+    <main>
+      <h1 class="sr-only">3-column preview card component</h1>
+      <div class="car-options flex">
+        <div class="flex bg-orange-400">
+          <img src="/assets/icon-sedans.svg" alt="" aria-hidden="true">
+          <h2 class="text-neutral-200 ff-heading fs-600 fw-700 uppercase mt-36">Sedans</h2>
+          <p class="text-neutral-100-75 mt-24 mb-auto">
+            Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+            or on your next road trip.
+          </p>
+          <a class="link mt-24  md-mt-84" data-type="primary" href="#">Learn More</a>
+        </div>
+
+        <div class="flex bg-cyan-400">
+          <img src="/assets/icon-suvs.svg" alt="" aria-hidden="true">
+          <h2 class="text-neutral-200 ff-heading fs-600 fw-700 uppercase mt-36">SUVs</h2>
+          <p class="text-neutral-100-75 mt-24 mb-auto">
+            Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+            and off-road adventures.
+          </p>
+          <a class="link mt-24 md-mt-84" data-type="primary" href="#">Learn More</a>
+        </div>
+
+        <div class="flex bg-cyan-500">
+          <img src="/assets/icon-luxury.svg" alt="" aria-hidden="true">
+          <h2 class="text-neutral-200 ff-heading fs-600 fw-700 uppercase mt-36">Luxury</h2>
+          <p class="text-neutral-100-75 mt-24 mb-auto">
+            Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+            rental and arrive in style.
+          </p>
+          <a class="link mt-24 md-mt-84" data-type="primary" href="#">Learn More</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="text-center">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+          Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/Milleus">Dave Quah (@Milleus)</a>.
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
